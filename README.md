@@ -15,17 +15,6 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
 - **React Router**: Para navegação entre páginas.
 - **CSS Modules**: Para estilização dos componentes.
 
-## Estrutura do Projeto
-
-- **src**
-  - **components**: Contém os componentes React utilizados no projeto.
-  - **data**
-     Arquivo JSON contendo as músicas
-  - **pages**
-    - `Home.js`: Página inicial listando todas as músicas.
-    - `Favorites.js`: Página para exibir as músicas favoritedas.
-  - **App.js**
- 
 ## Adicionando Novas Músicas
 
 Para adicionar novas músicas, edite o arquivo `songs.json` localizado na pasta `src/data`. Cada música deve ser adicionada no seguinte formato:
@@ -38,6 +27,19 @@ Para adicionar novas músicas, edite o arquivo `songs.json` localizado na pasta 
   "year": "Ano de Lançamento",
   "category": "Categoria"
 }
+
+## Estrutura do Projeto
+
+- **src**
+  - **components**: Contém os componentes React utilizados no projeto.
+  - **data**
+     Arquivo JSON contendo as músicas
+  - **pages**
+    - `Home.js`: Página inicial listando todas as músicas.
+    - `Favorites.js`: Página para exibir as músicas favoritedas.
+  - **App.js**
+ 
+
 
 ## Como Rodar o Projeto
 
