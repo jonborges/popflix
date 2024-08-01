@@ -32,13 +32,16 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
    ```bash
    git clone https://github.com/seu-usuario/popflix.git
 
-2. Navegue até o diretório do projeto: 
+2. Navegue até o diretório do projeto:
+3. ```bash
 cd popflix
 
-3. Instale as dependências:
+4. Instale as dependências:
+5. ```bash
 npm install
 
-4. Inicie o servidor de desenvolvimento:
+6. Inicie o servidor de desenvolvimento:
+7. ```bash
 npm start
 
 ### Adicionando Novas Músicas
