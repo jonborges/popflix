@@ -15,18 +15,6 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
 - **React Router**: Para navegação entre páginas.
 - **CSS Modules**: Para estilização dos componentes.
 
-## Adicionando Novas Músicas
-
-Para adicionar novas músicas, edite o arquivo `songs.json` localizado na pasta `src/data`. Cada música deve ser adicionada no seguinte formato:
-
-```json
-{
-  "id": "unique-id",
-  "title": "Nome da Música",
-  "artist": "Nome do Artista",
-  "year": "Ano de Lançamento",
-  "category": "Categoria"
-}
 
 ## Estrutura do Projeto
 
