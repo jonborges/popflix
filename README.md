@@ -58,7 +58,5 @@ Para adicionar novas músicas, edite o arquivo `songs.json` localizado na pasta 
 {
   "id": "unique-id",
   "title": "Nome da Música",
-  "artist": "Nome do Artista",
-  "year": "Ano de Lançamento",
   "category": "Categoria"
 }
