@@ -33,16 +33,16 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
    git clone https://github.com/seu-usuario/popflix.git
 
 2. Navegue até o diretório do projeto:
-3. ```bash
-cd popflix
+   ```bash
+   cd popflix
 
-4. Instale as dependências:
-5. ```bash
-npm install
+3. Instale as dependências:
+   ```bash
+   npm install
 
-6. Inicie o servidor de desenvolvimento:
-7. ```bash
-npm start
+4. Inicie o servidor de desenvolvimento:
+  ```bash
+  npm start
 
 ### Adicionando Novas Músicas
 Para adicionar novas músicas, edite o arquivo songs.json localizado na pasta src/data. Cada música deve ser adicionada no seguinte formato:
