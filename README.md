@@ -25,6 +25,19 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
     - `Home.js`: Página inicial listando todas as músicas.
     - `Favorites.js`: Página para exibir as músicas favoritedas.
   - **App.js**
+ 
+## Adicionando Novas Músicas
+
+Para adicionar novas músicas, edite o arquivo `songs.json` localizado na pasta `src/data`. Cada música deve ser adicionada no seguinte formato:
+
+```json
+{
+  "id": "unique-id",
+  "title": "Nome da Música",
+  "artist": "Nome do Artista",
+  "year": "Ano de Lançamento",
+  "category": "Categoria"
+}
 
 ## Como Rodar o Projeto
 
@@ -43,18 +56,4 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
 4. Inicie o servidor de desenvolvimento:
   ```bash
   npm start
-##
 
-
-## Adicionando Novas Músicas
-
-Para adicionar novas músicas, edite o arquivo `songs.json` localizado na pasta `src/data`. Cada música deve ser adicionada no seguinte formato:
-
-```json
-{
-  "id": "unique-id",
-  "title": "Nome da Música",
-  "artist": "Nome do Artista",
-  "year": "Ano de Lançamento",
-  "category": "Categoria"
-}
