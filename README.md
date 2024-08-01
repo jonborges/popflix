@@ -47,6 +47,9 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
   ```bash
   npm start
 
+
+```
+
 ## Adicionando Novas Músicas
 
 Para adicionar novas músicas, edite o arquivo `songs.json` localizado na pasta `src/data`. Cada música deve ser adicionada no seguinte formato:
