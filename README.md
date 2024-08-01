@@ -43,8 +43,7 @@ PopFlix é um site dedicado a trazer as músicas mais tocadas dos anos 2000, 200
 4. Inicie o servidor de desenvolvimento:
   ```bash
   npm start
-
-
+##
 
 
 ## Adicionando Novas Músicas
